@@ -39,3 +39,10 @@
 .st0{fill:#3396FF;stroke:#66B1FF;stroke-width:3;stroke-miterlimit:22.9256};
 .st1{fill:#FFFFFF;}
 
+.custom-scrollbar::-webkit-scrollbar{
+  height: 8px !important;
+  width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb{
+  background-color: #ffffff3b;
+}
