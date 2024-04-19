@@ -137,7 +137,7 @@ function SignIn() {
                 </div>
     
                 
-                {/* <div
+                <div
                   className="flex items-center rounded-b-lg lg:w-6/12 lg:rounded-r-lg lg:rounded-bl-none">
 
                  <div className="px-4 py-6 md:mx-6 md:p-12">
@@ -145,7 +145,7 @@ function SignIn() {
                    
                    
                   </div>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>

@@ -31,7 +31,7 @@ export default function Home() {
         
           <CustomButton
             title="Get Started"
-            containerStyles="bg-blue-950 text-white rounded-full m-10  "
+            containerStyles="bg-blue-950 text-white font-bold rounded-full m-10  "
             handleClick={handleScroll} />
       </div>
       <div className="xl:flex-[1] flex justify-end items-end w-full xl:h-screen">
@@ -39,8 +39,9 @@ export default function Home() {
         <div className="relative xl:w-full w-[90%] xl:h-full h-[590px] z-0">
           <Image src="/landingpage.jpg" alt="landingpage" fill className="object-contain  max-w-md p-12" />
         </div>
-
+      
       </div>
+      
 
     </div></>
      

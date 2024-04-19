@@ -10,15 +10,13 @@ const ChatListHeader = () => {
         <div className='cursor-pointer'>
             <Avater/> </div>
             <div className=' flex gap-6'>
-              <Link href={'/ContactList'}>
+              <Link href={'/message/ContactList'}>
                 <BsFillChatLeftTextFill  
                 className="text-panel-header-icon cursor-pointer text-xl" title='New Chat'
                 
                 />
                 </Link>
-                <>
-                < BsThreeDotsVertical  className="text-panel-header-icon cursor-pointer text-xl" title='Menu'/>
-                </>
+              
         
            
         </div>

@@ -83,6 +83,8 @@
 //           "icon-ack": "#53bdeb",
 //           "white":"#FFFFFF",
 //           "black":"#000000"
+
+
 //       }
 //     },
 //       // colors:{
@@ -126,7 +128,7 @@ const config: Config = {
     colors:{
       secondary: "#8696a0",
         "teal-light": "#7ae3c3",
-        "gray":"#808080",
+      
         "red-500":"#F44336",
         "photopicker-overlay-background": "rgba(30,42,49,0.8)",
         "dropdown-background": "#233138",
@@ -146,7 +148,16 @@ const config: Config = {
         "bubble-meta": "hsla(0,0%,100%,0.6)",
         "icon-ack": "#53bdeb",
         "white":"#FFFFFF",
-        "black":"#000000"
+        "black":"#000000",
+        blue:{
+                    950:'#3fa4a1',
+                    1000:'#b2f7ec',
+                    1050:'#66B1FF',
+                    1100:'#3396ff',
+                  },
+                  gray:{
+                              1000:"#747A88"
+                            },
     }
   },
   plugins: [],

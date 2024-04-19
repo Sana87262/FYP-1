@@ -8,7 +8,7 @@ const Avater = () => {
     <div className='flex items-center justify-between'>
         <div className='relative inline-block rounded-full overflow-hidden h-10 w-10 md:h-11
         md:w-11'>
-            <Image src={'/placeholder.jpg'} alt={'Avater'}    fill />    </div>
+            <Image src={'/user1.png'} alt={'Avater'}    fill />    </div>
     </div>
   )
 }

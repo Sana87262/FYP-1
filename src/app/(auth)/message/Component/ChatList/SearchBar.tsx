@@ -14,14 +14,12 @@ const SearchBar = () => {
           <input  type='text' 
            placeholder='Search or start a new chat.....' 
            className='bg-transparent bg-input-background  text-sm focus:outline-none w-full text-white '/>
-           {/* bg-input-background text-sm focus:outline-none text-white h-10 rounded-lg px-5 py-4 w-full */}
+           
             
           </div>
         
       </div>
-      <div className=' pl-3 pr-5'>
-        <BsFilter className='text-panel-header-icon cursor-pointer text-lg'/>
-      </div>
+     
     </div>
   )
 }

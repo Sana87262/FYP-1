@@ -153,7 +153,7 @@ const CaptureAudio: React.FC<CaptureAudioProps> = ({ hide }) => {
 
     const sendRecording = async () => {
         alert("Voice Send ")
-    };//iuiuhu
+    };
 
     return (
         <div className='flex text-2xl w-full justify-end items-center'>
