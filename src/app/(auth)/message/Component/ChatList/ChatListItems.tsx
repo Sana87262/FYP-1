@@ -35,6 +35,7 @@ data,
       rounded-lg    
       transition
       cursor-pointer
+      border
       `,
       selected ? 'bg-neutral-100' : 'bg-white'
     )}

@@ -60,7 +60,7 @@ const MessageBar: React.FC<MessageBarProps> = ({ addMessage }) => {
   };
 
   return (
-    <div className="bg-panel-header-background  h-20  px-4 flex items-center gap-6 relative ">
+    <div className="bg-white  h-20  px-4 flex items-center gap-6 relative ">
       {!showAudioRecorder && (
         <>
           <div className="flex gap-6">
@@ -86,7 +86,7 @@ const MessageBar: React.FC<MessageBarProps> = ({ addMessage }) => {
               id="message"
               placeholder="Type a message"
               required
-              className="bg-input-background text-sm focus:outline-none text-white h-10 rounded-lg px-5 py-4 w-full
+              className="bg-white border  text-sm focus:outline-none text-black h-10 rounded-lg px-5 py-4 w-full
                                 "
               onChange={(e) => setMessage(e.target.value)}
               value={message}

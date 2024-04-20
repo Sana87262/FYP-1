@@ -10,7 +10,7 @@ interface ChatContainerProps {
 const ChatContainer: React.FC<ChatContainerProps> = ({ messages }) => {
   
   return (
-    <div className=" h-full w-full relative flex-grow overflow-auto custom-scrollbar ">
+    <div className=" h-full w-full relative flex-grow overflow-auto custom-scrollbar bg-pink-1000 ">
       <div className="  bg-fixed h-full w-full opacity-100 left-0 top-0 z-0 ">
         <div className="mx-10 my-6 relative  bottom-0 z-40 left-0">
           <div className="flex w-full">

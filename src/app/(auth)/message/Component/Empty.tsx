@@ -3,8 +3,8 @@ import React from 'react'
 
 const Empty = () => {
   return (
-    <div className='border-conversation-border border-l  w-full bg-panel-header-background flex flex-col h-[100vh] border-b-4 border-b-icon-green items-center justify-center'>
-      <Image src="/Images/SmartConnect.png " alt="smartconnect"  height={300} width={300}
+    <div className=' border-l  w-full bg-white flex flex-col h-[100vh] border-b-4 border-b-blue-950 items-center justify-center'>
+      <Image src="/logo.png " alt="smartconnect"  height={300} width={300}
         
       /></div>
   )

@@ -158,6 +158,9 @@ const config: Config = {
                   gray:{
                               1000:"#747A88"
                             },
+                            pink:{
+                              1000:"#ECE5DD"
+                            }
     }
   },
   plugins: [],
